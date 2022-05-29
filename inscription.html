@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <link rel="stylesheet" href="inscription.css">
+     <script src="inscription.js"></script>
+ <title>
+      INSCRIPTION
+ </title>
+ </head>
+ <body>
+    <nav >
+        <div  class="logo">
+           <h1> 
+           <img src="H1.jpg" class="IMG" width="10" height="10"> 
+            
+
+          MEDICAL CLINIC 
+
+           </h1> 
+         </div>
+         
+             <ul class="nav-items">
+           
+             <li class="nav-item">
+             <a href="home.html" class="nav-link" > <h2><b> <ins> <button class="cta dark"> -ACCEUIL </button>  </ins> </b></h2></a> 
+             </li>
+             <li class="nav-item">
+                <a href="timetable.html" class="nav-link" ><h2> <b> <ins> <button class="cta dark">   -TIMETABLE </button>  </ins></b> </h2> </a> 
+             </li>
+             <li class="nav-item">
+                <a href="services.html" class="nav-link" > <h2><b> <ins> <button class="cta dark"> -SERVICES </button> </ins> </b> </h2></a> 
+             </li>
+             
+             <li class="nav-item">
+              <a href="inscription.html" class="nav-link" ><h2> <b> <ins><button class="cta dark"> -inscription</button> </ins></b> </h2> </a>
+               
+            </li>
+            </ul>
+            </nav> 
+          </div>
+          
+      <center>
+      
+     <fieldset>
+     <form  action="repense.php" method="post">
+         
+             <legend> <h1>  VUEILLEZ REMPLIR LA FORMULAIRE SVP: </h1> </legend>
+         <h3>
+           <table>
+            
+            <tr> 
+     <label for="NOM">NOM: </label> <input type="text" name="usernom"> <br> <br>
+    <label for="PRENOM">PRENOM: </label> <input type="text"name="userprenom"><br> <br>
+    <label for="SEXE">VOUS ETES HOMME OU FEMME? </label> <br><br>
+        <Select class="genre" name="usergendre"> 
+    <option value="HOMME"name="usergendre"> HOMME </option>
+    <Option value="FEMME" name="usergendre"> FEMME </Option>
+        </Select> <br> <br>
+    <label for="number" >NUMERO DE TELEPHONE: </label><input type="number" name="usernum"><br><br>
+    <label for="date">DATE DE RENEDEZ-VOUS</label> <input type="date" name="userdate"> <br> <br>
+    <input class ="BOTTOM" bottem="revealmsg()" type="submit" value="S'INSCRIRE"> <br> <br>
+        <p id="msg" style="display:none ;"> LA FORMULARE EST BIEN REMPLIE.</p>
+      </h3>
+       </tr> 
+    </table> 
+    </form>
+    </fieldset>
+    
+       </script>
+ 
+      </body>
+</html>

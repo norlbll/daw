@@ -1,0 +1,97 @@
+
+nav{
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center ;
+    height: 10vh;
+    background-color: skyblue;
+    color: black;
+    border-radius: 1rem;
+    
+}
+
+
+
+.nav-items {
+    list-style:  none;
+    padding-top: 1rem;
+    display: flex ;
+    
+    
+}
+
+.nav-items .nav-item   {
+    padding-left: 2rem ;
+    color: black ;
+}
+.nav-item:hover {
+    color: blue;
+}
+.nav-item .cta {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.cta {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color:white;
+}
+.cta.dark {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    color: black;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+fieldset{
+    margin-top: 30;
+    width: 30;
+    background-color: whitesmoke;
+    border: 12cm;
+    
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+
+h3{ font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+ ;
+}
+.BOTTOM {
+   margin: 20px;
+   color: black;
+   background-color: white;
+   width: 150px;
+   font-size: 17px;
+   
+   border-radius: 30px;
+   border: 1px solid white;
+}
+.BOTTOM:hover {
+    color: white;
+    background-color: gray; 
+
+}
+.genre{
+    margin: 20px;
+    color: black;
+    background-color: white;
+    width: 150px;
+    font-size: 17px;
+    
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
